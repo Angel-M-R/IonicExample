@@ -41,9 +41,14 @@ export class InicioPage implements OnInit {
       redirectTo: '/card'
     },
     {
-      icon: 'checkmark-cirle-outline',
+      icon: 'checkmark',
       name: 'Checks',
       redirectTo: '/check'
+    },
+    {
+      icon: 'calendar-outline',
+      name: 'DateTime',
+      redirectTo: '/date-time'
     }
   ];
 
