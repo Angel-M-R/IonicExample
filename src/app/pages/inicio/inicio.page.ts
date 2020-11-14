@@ -31,7 +31,7 @@ export class InicioPage implements OnInit {
       redirectTo: '/avatar'
     },
     {
-      icon: 'radio-button-off–outline',
+      icon: 'radio-button-off',
       name: 'Buttons',
       redirectTo: '/button'
     },
@@ -39,6 +39,11 @@ export class InicioPage implements OnInit {
       icon: 'card-outline',
       name: 'Cards',
       redirectTo: '/card'
+    },
+    {
+      icon: 'checkmark-cirle-outline',
+      name: 'Checks',
+      redirectTo: '/check'
     }
   ];
 
