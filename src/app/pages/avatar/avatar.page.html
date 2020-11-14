@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Avatar</ion-title>
+    <ion-buttons slot="end">
+
+      <ion-avatar>
+        <!-- <img [src]="assets/willyrex.jpg" /> -->
+        <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+ 
+      </ion-avatar>
+      <ion-avatar>
+        <img src='assets/willyrex.jpg' />
+ 
+      </ion-avatar>
+    </ion-buttons>
+
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-chip *ngFor="let item of [1,1,1,1]"color="primary" outline="true">
+  <ion-avatar>
+    <img src="assets/willyrex.jpg" />
+  </ion-avatar>
+ 
+  <ion-label>Default</ion-label>
+</ion-chip>
+
+<ion-list>
+  <ion-item *ngFor="let item of [1,1,1,1]">
+    <ion-avatar slot="start">
+      <img src="assets/willyrex.jpg" />
+    </ion-avatar>
+    <ion-label>Awesome Label</ion-label>
+  </ion-item>
+</ion-list>
+</ion-content>
